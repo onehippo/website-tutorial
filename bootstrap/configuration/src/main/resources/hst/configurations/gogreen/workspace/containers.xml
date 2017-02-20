@@ -6,22 +6,6 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:containercomponentfolder</sv:value>
     </sv:property>
-    <sv:node sv:name="top">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:containercomponent</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.Span</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="footer">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:containercomponent</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.vBox</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="homepage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -32,7 +16,7 @@
         <sv:value>hst:containercomponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:lastmodified" sv:type="Date">
-        <sv:value>2016-06-22T15:26:52.974-07:00</sv:value>
+        <sv:value>2016-06-28T09:53:01.503-07:00</sv:value>
       </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>HST.vBox</sv:value>
@@ -87,6 +71,51 @@
           <sv:value>HST.Item</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="featured-products">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.onehippo.cms7.essentials.components.EssentialsListPickerComponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:label" sv:type="String">
+          <sv:value>Featured Products</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>document8</sv:value>
+          <sv:value>document7</sv:value>
+          <sv:value>document9</sv:value>
+          <sv:value>document4</sv:value>
+          <sv:value>document3</sv:value>
+          <sv:value>document6</sv:value>
+          <sv:value>document10</sv:value>
+          <sv:value>document5</sv:value>
+          <sv:value>pageSize</sv:value>
+          <sv:value>showPagination</sv:value>
+          <sv:value>document2</sv:value>
+          <sv:value>document1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value/>
+          <sv:value/>
+          <sv:value/>
+          <sv:value/>
+          <sv:value>products/mec-lodge-4-4-tent</sv:value>
+          <sv:value/>
+          <sv:value/>
+          <sv:value/>
+          <sv:value>10</sv:value>
+          <sv:value>off</sv:value>
+          <sv:value>products/lifeproof-nuud-ipad-air-case</sv:value>
+          <sv:value>products/solar-centurian---outdoor-security-light</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>featured-products</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>hst.item</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
   <sv:node sv:name="pagenotfound">
@@ -108,51 +137,56 @@
     </sv:property>
     <sv:node sv:name="main">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:containercomponent</sv:value>
+        <sv:value>hst:containercomponentfolder</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.vBox</sv:value>
-      </sv:property>
-      <sv:node sv:name="newslist">
+      <sv:node sv:name="left">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:containeritemcomponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:componentclassname" sv:type="String">
-          <sv:value>org.onehippo.cms7.essentials.components.EssentialsNewsComponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:label" sv:type="String">
-          <sv:value>News List</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-          <sv:value>hidePastEvents</sv:value>
-          <sv:value>documentTypes</sv:value>
-          <sv:value>sortField</sv:value>
-          <sv:value>sortOrder</sv:value>
-          <sv:value>includeSubtypes</sv:value>
-          <sv:value>showPagination</sv:value>
-          <sv:value>path</sv:value>
-          <sv:value>pageSize</sv:value>
-          <sv:value>documentDateField</sv:value>
-          <sv:value>hideFutureItems</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-          <sv:value>on</sv:value>
-          <sv:value>gogreen:newsdocument</sv:value>
-          <sv:value/>
-          <sv:value>desc</sv:value>
-          <sv:value>off</sv:value>
-          <sv:value>on</sv:value>
-          <sv:value/>
-          <sv:value>10</sv:value>
-          <sv:value>gogreen:date</sv:value>
-          <sv:value>on</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:template" sv:type="String">
-          <sv:value>newslist-main-newslist</sv:value>
+          <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.Item</sv:value>
+          <sv:value>HST.vBox</sv:value>
         </sv:property>
+        <sv:node sv:name="newslist">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>org.onehippo.cms7.essentials.components.EssentialsNewsComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>News List</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>hidePastEvents</sv:value>
+            <sv:value>documentTypes</sv:value>
+            <sv:value>sortField</sv:value>
+            <sv:value>sortOrder</sv:value>
+            <sv:value>includeSubtypes</sv:value>
+            <sv:value>showPagination</sv:value>
+            <sv:value>path</sv:value>
+            <sv:value>pageSize</sv:value>
+            <sv:value>documentDateField</sv:value>
+            <sv:value>hideFutureItems</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>on</sv:value>
+            <sv:value>gogreen:newsdocument</sv:value>
+            <sv:value/>
+            <sv:value>desc</sv:value>
+            <sv:value>off</sv:value>
+            <sv:value>on</sv:value>
+            <sv:value/>
+            <sv:value>10</sv:value>
+            <sv:value>gogreen:date</sv:value>
+            <sv:value>on</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>newslist-main-newslist</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
       </sv:node>
     </sv:node>
   </sv:node>
@@ -162,24 +196,29 @@
     </sv:property>
     <sv:node sv:name="main">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:containercomponent</sv:value>
+        <sv:value>hst:containercomponentfolder</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.vBox</sv:value>
-      </sv:property>
-      <sv:node sv:name="content">
+      <sv:node sv:name="left">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:containeritemcomponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:componentclassname" sv:type="String">
-          <sv:value>org.onehippo.cms7.essentials.components.EssentialsContentComponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:template" sv:type="String">
-          <sv:value>newspage-main</sv:value>
+          <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.Item</sv:value>
+          <sv:value>HST.vBox</sv:value>
         </sv:property>
+        <sv:node sv:name="content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>org.onehippo.cms7.essentials.components.EssentialsContentComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>newspage-main</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
       </sv:node>
     </sv:node>
   </sv:node>
@@ -237,24 +276,29 @@
     </sv:property>
     <sv:node sv:name="main">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:containercomponent</sv:value>
+        <sv:value>hst:containercomponentfolder</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.vBox</sv:value>
-      </sv:property>
-      <sv:node sv:name="content">
+      <sv:node sv:name="left">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:containeritemcomponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:componentclassname" sv:type="String">
-          <sv:value>org.onehippo.cms7.essentials.components.EssentialsContentComponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:template" sv:type="String">
-          <sv:value>contentpage-main</sv:value>
+          <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.Item</sv:value>
+          <sv:value>HST.vBox</sv:value>
         </sv:property>
+        <sv:node sv:name="content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>org.onehippo.cms7.essentials.components.EssentialsContentComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>contentpage-main</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
       </sv:node>
     </sv:node>
   </sv:node>

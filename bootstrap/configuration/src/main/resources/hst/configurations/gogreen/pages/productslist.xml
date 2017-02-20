@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="newslist">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="productslist">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:component</sv:value>
   </sv:property>
@@ -11,21 +11,13 @@
     </sv:property>
     <sv:node sv:name="left">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:containercomponentreference</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:referencecomponent" sv:type="String">
-        <sv:value>newslist/main/left</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="right">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.cms7.essentials.components.EssentialsFacetsComponent</sv:value>
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsListComponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>faceted-navigation</sv:value>
+        <sv:value>productslist</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

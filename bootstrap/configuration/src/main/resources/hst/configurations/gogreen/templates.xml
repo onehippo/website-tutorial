@@ -66,4 +66,60 @@
       <sv:value>webfile:/freemarker/gogreen/contentlist-main-contentlist.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="twocolumns-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gogreen/twocolumns-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="newspage-relatednews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gogreen/newspage-relatednews.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="twocolumns-right-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gogreen/twocolumns-right-menu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="productslist">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gogreen/productslist.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="productpage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gogreen/productpage-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="featured-products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gogreen/featured-products.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="faceted-navigation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gogreen/faceted-navigation.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
