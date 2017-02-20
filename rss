@@ -1,0 +1,33 @@
+<rss version="2.0">
+   <channel>
+      <title>Hippo demo feed</title>
+      <link>http://demo.onehippo.com/</link>
+      <description>Hippo helps companies and goverment agencies manage and access information, protect sensitive data, share knowledge, optimize collaboration and reduce operational costs through its Content Management and Portal technologies. With the combination of enterprise-class support and open source technology, Hippo provides its users with the best of both worlds: the flexibility, innovation and robustness of open source software combined with the stability, reach, and service quality of an established vendor.</description>
+      <language>en</language>
+      <generator>Hippo CMS</generator>
+      <item>
+            <title>GoGreen Nominated for UNEF Sustainable Business Award</title>
+            <link>http://localhost:8080/news/2014/10/gogreen-nominated-for-unef-sustainable-business-award.html</link>
+            <description>GoGreen is Pleased to Announce its Nomination for a UNEF Sustainable Business Award</description>
+            <pubDate>Mon, 08 Sep 2014 17:08:32 +0200</pubDate>
+         </item>
+      <item>
+            <title>Sonja Verde Joins GoGreen as VP of Marketing</title>
+            <link>http://localhost:8080/news/2014/09/sonja-verde-joins-gogreen-as-vp-of-marketing.html</link>
+            <description>Position to strengthen regional presence for global leader in sustainable consumer goods.</description>
+            <pubDate>Mon, 18 Aug 2014 17:10:45 +0200</pubDate>
+         </item>
+      <item>
+            <title>GoGreen Announces record growth in H1</title>
+            <link>http://localhost:8080/news/2014/09/gogreen-announces-record-growth-in-h1.html</link>
+            <description>After a historically successful first quarter, GoGreen&#039;s rapid growth continues in H1.</description>
+            <pubDate>Thu, 03 Jul 2014 17:10:26 +0200</pubDate>
+         </item>
+      <item>
+            <title>Hippo and GoGreen Collaborate to Launch a Comprehensive Website Redesign</title>
+            <link>http://localhost:8080/news/2014/09/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign.html</link>
+            <description>Working closely with Hippo, GoGreen, the world’s first, digitally-native, global authority on sustainable products for the home, office and outdoors has just announced the launch of a completely new GoGreen.com.</description>
+            <pubDate>Tue, 15 Jul 2014 17:09:48 +0200</pubDate>
+         </item>
+      </channel>
+</rss>
