@@ -19,7 +19,7 @@
         <sv:value>2016-06-28T09:53:01.503-07:00</sv:value>
       </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.vBox</sv:value>
+        <sv:value>hst.nomarkup</sv:value>
       </sv:property>
       <sv:node sv:name="carousel">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -68,7 +68,7 @@
           <sv:value>essentials-carousel</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.Item</sv:value>
+          <sv:value>hst.item</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="featured-products">
@@ -127,7 +127,7 @@
         <sv:value>hst:containercomponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.vBox</sv:value>
+        <sv:value>hst.nomarkup</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
@@ -144,7 +144,7 @@
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.vBox</sv:value>
+          <sv:value>hst.nomarkup</sv:value>
         </sv:property>
         <sv:node sv:name="newslist">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -184,7 +184,7 @@
             <sv:value>newslist-main-newslist</sv:value>
           </sv:property>
           <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.Item</sv:value>
+            <sv:value>hst.item</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
@@ -203,7 +203,7 @@
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.vBox</sv:value>
+          <sv:value>hst.nomarkup</sv:value>
         </sv:property>
         <sv:node sv:name="content">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -216,7 +216,7 @@
             <sv:value>newspage-main</sv:value>
           </sv:property>
           <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.Item</sv:value>
+            <sv:value>hst.item</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
@@ -231,7 +231,7 @@
         <sv:value>hst:containercomponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.vBox</sv:value>
+        <sv:value>hst.nomarkup</sv:value>
       </sv:property>
       <sv:node sv:name="contentlist">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -265,7 +265,7 @@
           <sv:value>contentlist-main-contentlist</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.Item</sv:value>
+          <sv:value>hst.item</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -283,7 +283,7 @@
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.vBox</sv:value>
+          <sv:value>hst.nomarkup</sv:value>
         </sv:property>
         <sv:node sv:name="content">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -296,7 +296,7 @@
             <sv:value>contentpage-main</sv:value>
           </sv:property>
           <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.Item</sv:value>
+            <sv:value>hst.item</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
