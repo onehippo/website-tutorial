@@ -1,2 +1,4 @@
 <#include "../include/imports.ftl">
-<@hst.include ref="container"/>
+<div>
+  <@hst.include ref="container"/>
+</div>

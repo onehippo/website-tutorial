@@ -118,13 +118,17 @@
           </div>
         </div>
       </div>
- 
-      <@hst.include ref="main"/>
+
+      <div class="row"> 
+        <@hst.include ref="main"/>
+      </div>
          
     </div>
  
     <!-- footer -->
-    <@hst.include ref="footer"/>
+    <div class="row">
+      <@hst.include ref="footer"/>
+    </div>
  
   </div>
  

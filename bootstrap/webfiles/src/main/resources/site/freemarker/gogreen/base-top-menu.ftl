@@ -14,9 +14,4 @@
     </nav>
   </#if>
   <@hst.cmseditmenu menu=menu/>
-<#else>
-  <#if editMode>
-    <h5>[Menu Component]</h5>
-    <sub>Click to edit Menu</sub>
-  </#if>
 </#if>
