@@ -89,3 +89,159 @@
 
                       </body>
                       </html>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: e7dc7473-feca-4d3b-93b8-76e85b48b466
+    hippo:name: Terms & Conditions
+    /terms--conditions[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: aeb6e001-2386-4a1a-97d7-319a3e244b6f
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-27T11:43:05.439-07:00
+      hippostdpubwf:lastModificationDate: 2017-06-27T11:43:05.439-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6a1019a5-6efe-43b1-85ce-b630c5d6631d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>All content is only used for demo uses.</p>
+
+          <p>Hippo tried to only use Creative commons license &amp; give the credits to the original owners. If you find some content wihich shouldn't be in our demo, please email us at info @ onehippo(dot)com and we will remove it.</p>
+    /terms--conditions[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: dff05404-d105-4a88-815c-8d40cc357553
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-27T11:43:05.439-07:00
+      hippostdpubwf:lastModificationDate: 2017-06-27T11:43:21.565-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6a1019a5-6efe-43b1-85ce-b630c5d6631d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>All content is only used for demo uses.</p>
+
+          <p>Hippo tried to only use Creative commons license &amp; give the credits to the original owners. If you find some content wihich shouldn't be in our demo, please email us at info @ onehippo(dot)com and we will remove it.</p>
+    /terms--conditions[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fa143160-7abf-43dd-8fe6-6f8b99d9e8b8
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-27T11:43:05.439-07:00
+      hippostdpubwf:lastModificationDate: 2017-06-27T11:43:21.565-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-06-27T11:48:28.772-07:00
+      hippotranslation:id: 6a1019a5-6efe-43b1-85ce-b630c5d6631d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>All content is only used for demo uses.</p>
+
+          <p>Hippo tried to only use Creative commons license &amp; give the credits to the original owners. If you find some content wihich shouldn't be in our demo, please email us at info @ onehippo(dot)com and we will remove it.</p>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 36fce559-c33b-4ba7-a6c2-7c54764683c3
+    hippo:name: Quick Facts
+    /quick-facts[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0f7f69e7-7b2e-42d1-94cd-2f3981c20c64
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about Hippo
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-27T11:42:33.014-07:00
+      hippostdpubwf:lastModificationDate: 2017-06-27T11:42:33.014-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2837c0c6-08ac-4b7b-985a-0ed6afe64fde
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Founded in 1999</li>
+           <li>80+ employees</li>
+           <li>Offices in Amsterdam and Boston</li>
+           <li>Privately held</li>
+           <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+          </ul>
+    /quick-facts[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d7ca8e45-2f0d-49d9-938c-090f80bba8f9
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about Hippo
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-27T11:42:33.014-07:00
+      hippostdpubwf:lastModificationDate: 2017-06-27T11:42:48.968-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2837c0c6-08ac-4b7b-985a-0ed6afe64fde
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Founded in 1999</li>
+           <li>80+ employees</li>
+           <li>Offices in Amsterdam and Boston</li>
+           <li>Privately held</li>
+           <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+          </ul>
+    /quick-facts[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cc3168e5-e1fe-47e4-97de-ba88ee3e55d9
+      gogreen:introduction: ''
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick facts about Hippo
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-06-27T11:42:33.014-07:00
+      hippostdpubwf:lastModificationDate: 2017-06-27T11:42:48.968-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-06-27T11:48:26.693-07:00
+      hippotranslation:id: 2837c0c6-08ac-4b7b-985a-0ed6afe64fde
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Founded in 1999</li>
+           <li>80+ employees</li>
+           <li>Offices in Amsterdam and Boston</li>
+           <li>Privately held</li>
+           <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+          </ul>
