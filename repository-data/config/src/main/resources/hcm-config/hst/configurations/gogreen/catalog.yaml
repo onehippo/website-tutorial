@@ -4,3 +4,9 @@ definitions:
       jcr:primaryType: hst:catalog
       /gogreen-catalog:
         jcr:primaryType: hst:containeritempackage
+        /featured-products:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListPickerComponent
+          hst:label: Featured Products
+          hst:template: featured-products
+          hst:xtype: hst.item

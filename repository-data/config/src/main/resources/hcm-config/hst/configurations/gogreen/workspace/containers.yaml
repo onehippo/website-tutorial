@@ -10,7 +10,7 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:label: Home Page Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2017-06-27T09:23:47.853-07:00
+          hst:lastmodified: 2017-06-27T12:53:04.018-07:00
           /carousel:
             jcr:primaryType: hst:containeritemcomponent
             hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
@@ -23,6 +23,17 @@ definitions:
               banners/is-a-smart-thermostat-worth-the-investment, banners/10-simple-steps-to-green-your-office,
               'on', 'on', '700', '250', '#FFFFFF', 'off', '3000']
             hst:template: essentials-carousel
+            hst:xtype: hst.item
+          /featured-products:
+            jcr:primaryType: hst:containeritemcomponent
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListPickerComponent
+            hst:label: Featured Products
+            hst:parameternames: [document8, document7, document9, document4, document3,
+              document6, document10, document5, pageSize, showPagination, document2,
+              document1]
+            hst:parametervalues: ['', '', '', '', products/mec-lodge-4-4-tent, '',
+              '', '', '10', 'off', products/lifeproof-nuud-ipad-air-case, products/solar-centurian---outdoor-security-light]
+            hst:template: featured-products
             hst:xtype: hst.item
       /pagenotfound:
         jcr:primaryType: hst:containercomponentfolder
