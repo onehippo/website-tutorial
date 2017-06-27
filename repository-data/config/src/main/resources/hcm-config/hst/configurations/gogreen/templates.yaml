@@ -26,3 +26,9 @@ definitions:
       /search-main:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/gogreen/search-main.ftl
+      /twocolumns-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/gogreen/twocolumns-main.ftl
+      /newspage-relatednews:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/gogreen/newspage-relatednews.ftl
