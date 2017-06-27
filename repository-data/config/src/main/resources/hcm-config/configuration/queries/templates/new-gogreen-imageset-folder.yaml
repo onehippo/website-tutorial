@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-gogreen-imageset-folder:
+      jcr:primaryType: hippostd:templatequery
+      hippostd:modify: [./_name, $name]
+      jcr:language: xpath
+      jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-gogreen-imageset-folder/hippostd:templates/node()
+      /hippostd:templates:
+        jcr:primaryType: hippostd:templates
+        /image gallery:
+          jcr:primaryType: hippogallery:stdImageGallery
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 309c7e06-a2ad-46e9-b86a-7ef544e952b8
+          hippostd:foldertype: [new-gogreen-imageset-folder]
+          hippostd:gallerytype: ['gogreen:imageset']

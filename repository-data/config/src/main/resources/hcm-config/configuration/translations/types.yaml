@@ -106,3 +106,5 @@ definitions:
         gogreen:publicationdate: Publikationsdatum
         gogreen:title: Titel
         jcr:name: Einfaches Dokument
+    /hippo:configuration/hippo:translations/hippo:types/gogreen:imageset:
+      jcr:primaryType: hipposys:resourcebundles

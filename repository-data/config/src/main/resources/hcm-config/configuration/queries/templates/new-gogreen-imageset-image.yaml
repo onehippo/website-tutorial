@@ -1,0 +1,25 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-gogreen-imageset-image:
+      jcr:primaryType: hippostd:templatequery
+      hippostd:modify: [./_name, $name, ./_node/_name, $name]
+      jcr:language: xpath
+      jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-gogreen-imageset-image/hippostd:templates/node()
+      /hippostd:templates:
+        jcr:primaryType: hippostd:templates
+        /image:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 411947d6-1ab3-480b-9650-458b00daf4b0
+          /image:
+            jcr:primaryType: hippogallery:imageset
+            jcr:mixinTypes: ['mix:versionable']
+            jcr:uuid: 5b7dd630-9692-4bc3-b083-d806e73c93d1
+            /hippogallery:thumbnail:
+              jcr:primaryType: hippogallery:image
+              jcr:data:
+                type: binary
+                resource: /configuration/queries/templates/new-gogreen-imageset-image/templates/image/image_thumbnail.jpg
+              jcr:encoding: UTF-8
+              jcr:lastModified: 2008-03-26T12:03:00+01:00
+              jcr:mimeType: image/jpeg

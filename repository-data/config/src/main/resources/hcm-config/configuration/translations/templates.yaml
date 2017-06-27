@@ -18,6 +18,8 @@ definitions:
       new-news-folder: new news item folder
       new-content-folder: new content folder
       new-content-document: new content document
+      new-gogreen-imageset-image: New Image
+      new-gogreen-imageset-folder: new folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-untranslated-folder: nouveau dossier non traduit
       new-resource-bundle: nouveau resource bundle
