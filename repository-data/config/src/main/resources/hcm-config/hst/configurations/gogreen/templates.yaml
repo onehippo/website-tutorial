@@ -44,3 +44,6 @@ definitions:
       /featured-products:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/gogreen/featured-products.ftl
+      /faceted-navigation:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/gogreen/faceted-navigation.ftl
