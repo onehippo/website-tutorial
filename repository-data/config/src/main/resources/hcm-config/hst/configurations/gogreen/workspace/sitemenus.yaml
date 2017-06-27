@@ -4,12 +4,16 @@ definitions:
       jcr:primaryType: hst:sitemenus
       /main:
         jcr:primaryType: hst:sitemenu
-        /home:
+        hst:lastmodified: 2017-06-27T10:16:12.278-07:00
+        /Home:
           jcr:primaryType: hst:sitemenuitem
           hst:referencesitemapitem: root
-        /news:
+          hst:repobased: false
+        /News:
           jcr:primaryType: hst:sitemenuitem
           hst:referencesitemapitem: news
-        /content:
+          hst:repobased: false
+        /About:
           jcr:primaryType: hst:sitemenuitem
-          hst:referencesitemapitem: content
+          hst:referencesitemapitem: content/about.html
+          hst:repobased: false
