@@ -2,7 +2,7 @@ definitions:
   namespace:
     gogreen:
       uri: http://www.onehippo.org/gogreen/nt/1.0
-      cnd: namespaces/gogreen.cnd  
+      cnd: namespaces/gogreen.cnd
   config:
     /hippo:configuration/hippo:modules/webfiles/hippo:moduleconfig:
       watchedModules: [repository-data/webfiles]

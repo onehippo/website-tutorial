@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-namespace/hippostd:templates/namespace:
+      jcr:uuid: 79f63ec8-265e-468b-ad10-a85ecc4bc66e
+    /hippo:configuration/hippo:queries/hippo:templates/new-namespace/hippostd:templates/namespace/basedocument:
+      jcr:uuid: b906a237-4dfd-4cef-a669-699d7f8b6deb
+    ? /hippo:configuration/hippo:queries/hippo:templates/new-namespace/hippostd:templates/namespace/basedocument/hipposysedit:nodetype
+    : jcr:uuid: 8070be9c-dacf-46f6-9397-7650b00251c3

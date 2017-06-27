@@ -2,3 +2,14 @@ definitions:
   config:
     /hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus:
       jcr:primaryType: hst:sitemenus
+      /main:
+        jcr:primaryType: hst:sitemenu
+        /home:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: root
+        /news:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: news
+        /content:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: content

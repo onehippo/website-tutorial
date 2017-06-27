@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-type/hippostd:templates/compound:
+      jcr:uuid: ced9371c-1bd4-4ecf-9644-e8de1e9c75ad
+    /hippo:configuration/hippo:queries/hippo:templates/new-type/hippostd:templates/compound/hipposysedit:nodetype:
+      jcr:uuid: 2916dd07-7608-42ad-a1e7-23d35da1c182
+    ? /hippo:configuration/hippo:queries/hippo:templates/new-type/hippostd:templates/compound/hipposysedit:nodetype/hipposysedit:nodetype
+    : jcr:uuid: 95b17c94-97a3-43a4-b35f-f0b666ad9f73
+    /hippo:configuration/hippo:queries/hippo:templates/new-type/hippostd:templates/document:
+      jcr:uuid: 699a74e2-9c7e-4de5-b870-fbcd6d0f4acf
+    /hippo:configuration/hippo:queries/hippo:templates/new-type/hippostd:templates/document/hipposysedit:nodetype:
+      jcr:uuid: 4bd6cf94-2bca-4305-9543-3fcaf18a5577
+    ? /hippo:configuration/hippo:queries/hippo:templates/new-type/hippostd:templates/document/hipposysedit:nodetype/hipposysedit:nodetype
+    : jcr:uuid: 810b1d0b-50d9-47a4-a3eb-8397cb632d03
