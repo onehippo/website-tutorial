@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:sites:
+      jcr:primaryType: hst:sites
+      /gogreen:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/gogreen
