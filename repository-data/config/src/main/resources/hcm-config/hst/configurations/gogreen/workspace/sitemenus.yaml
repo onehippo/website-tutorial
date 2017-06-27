@@ -4,7 +4,7 @@ definitions:
       jcr:primaryType: hst:sitemenus
       /main:
         jcr:primaryType: hst:sitemenu
-        hst:lastmodified: 2017-06-27T10:16:12.278-07:00
+        hst:lastmodified: 2017-06-27T10:28:02.919-07:00
         /Home:
           jcr:primaryType: hst:sitemenuitem
           hst:referencesitemapitem: root
@@ -15,5 +15,5 @@ definitions:
           hst:repobased: false
         /About:
           jcr:primaryType: hst:sitemenuitem
-          hst:referencesitemapitem: content/about.html
+          hst:referencesitemapitem: about
           hst:repobased: false
