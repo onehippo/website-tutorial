@@ -23,3 +23,6 @@ definitions:
           /Terms & Conditions:
             jcr:primaryType: hst:sitemenuitem
             hst:referencesitemapitem: content/terms--conditions.html
+        /Products:
+          jcr:primaryType: hst:sitemenuitem
+          hst:referencesitemapitem: products

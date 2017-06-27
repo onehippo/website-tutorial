@@ -35,3 +35,6 @@ definitions:
       /twocolumns-right-menu:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/gogreen/twocolumns-right-menu.ftl
+      /productslist:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/gogreen/productslist.ftl
