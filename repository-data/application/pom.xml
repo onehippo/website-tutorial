@@ -8,9 +8,9 @@
     <version>0.1.0-SNAPSHOT</version>
   </parent>
 
-  <name>GoGreen Repository Data Configuration</name>
-  <description>GoGreen Repository Data Configuration</description>
-  <artifactId>gogreen-repository-data-config</artifactId>
+  <name>GoGreen Repository Data For Application</name>
+  <description>GoGreen Repository Data For Application</description>
+  <artifactId>gogreen-repository-data-application</artifactId>
 
   <build>
     <defaultGoal>install</defaultGoal>

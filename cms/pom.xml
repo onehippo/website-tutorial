@@ -37,7 +37,7 @@
     </dependency>
     <dependency>
       <groupId>org.example</groupId>
-      <artifactId>gogreen-repository-data-config</artifactId>
+      <artifactId>gogreen-repository-data-application</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>

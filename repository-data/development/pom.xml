@@ -8,9 +8,9 @@
     <version>0.1.0-SNAPSHOT</version>
   </parent>
 
-  <name>GoGreen Repository Data Content</name>
-  <description>GoGreen Repository Data Content</description>
-  <artifactId>gogreen-repository-data-content</artifactId>
+  <name>GoGreen Repository Data For Development</name>
+  <description>GoGreen Repository Data For Development</description>
+  <artifactId>gogreen-repository-data-development</artifactId>
 
   <build>
     <defaultGoal>install</defaultGoal>
