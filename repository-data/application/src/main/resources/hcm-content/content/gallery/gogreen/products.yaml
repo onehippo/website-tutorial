@@ -1,0 +1,249 @@
+/content/gallery/gogreen/products:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: ecd045b6-02ec-489a-92d5-3ea3b9b29c46
+  hippostd:foldertype: [new-gogreen-imageset-folder]
+  hippostd:gallerytype: ['gogreen:imageset']
+  /family-tent.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e358eefe-f74e-4e9d-b434-b57af237006a
+    /family-tent.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: family-tent.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: family-tent.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/small/small.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/original/original.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/large/large.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/banner/banner.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/family-tent.jpg/family-tent.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.477-07:00
+        jcr:mimeType: image/jpeg
+  /lifeproof-ipad-case.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 28c8c7bb-ed6b-4cbe-a5c6-5540395f3337
+    /lifeproof-ipad-case.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: lifeproof-ipad-case.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: lifeproof-ipad-case.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/small/small.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/original/original.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/large/large.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/banner/banner.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 232
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/lifeproof-ipad-case.jpg/lifeproof-ipad-case.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.782-07:00
+        jcr:mimeType: image/jpeg
+  /smcenturian_detail.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4ca2c809-401a-4f3f-b155-4dd63defef2c
+    /smcenturian_detail.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: smcenturian_detail.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: smcenturian_detail.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 224
+        hippogallery:width: 224
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/small/small.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/original/original.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/large/large.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 250
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/banner/banner.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 280
+        hippogallery:width: 280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/products/smcenturian_detail.jpg/smcenturian_detail.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2017-09-13T14:02:23.979-07:00
+        jcr:mimeType: image/jpeg
