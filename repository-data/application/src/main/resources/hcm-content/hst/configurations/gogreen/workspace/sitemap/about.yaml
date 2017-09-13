@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemap/about:
+  jcr:primaryType: hst:sitemapitem
+  jcr:uuid: 19ba3f83-3282-4487-8ae0-9e20391d2a64
+  hst:componentconfigurationid: hst:pages/about-contentpage
+  hst:lastmodified: 2017-09-13T12:33:55.979-07:00
+  hst:pagetitle: About
+  hst:relativecontentpath: about/about
