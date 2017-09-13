@@ -22,3 +22,10 @@
         hst:parametervalues: [about/about, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
         hst:template: contentpage-main
         hst:xtype: hst.item
+    /right:
+      jcr:primaryType: hst:component
+      jcr:uuid: 53409e50-8365-4bff-8a86-c64e3050619e
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+      hst:parameternames: [menu]
+      hst:parametervalues: [main]
+      hst:template: twocolumns-right-menu
