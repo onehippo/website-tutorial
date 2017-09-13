@@ -1,0 +1,16 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/newslist/main/left:
+  jcr:primaryType: hst:containercomponent
+  jcr:uuid: 557d5dd0-e3c6-4fe8-b2e1-f423928e70bd
+  hst:label: News List Main
+  hst:xtype: hst.vbox
+  /newslist:
+    jcr:primaryType: hst:containeritemcomponent
+    jcr:uuid: 82810c50-41a6-4600-a1cd-a114e3767944
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsNewsComponent
+    hst:label: News List
+    hst:parameternames: [hidePastEvents, documentTypes, sortField, sortOrder, includeSubtypes,
+      showPagination, path, pageSize, documentDateField, hideFutureItems]
+    hst:parametervalues: ['on', 'gogreen:newsdocument', '', desc, 'off', 'on', '',
+      '10', 'gogreen:date', 'on']
+    hst:template: newslist-main-newslist
+    hst:xtype: hst.item

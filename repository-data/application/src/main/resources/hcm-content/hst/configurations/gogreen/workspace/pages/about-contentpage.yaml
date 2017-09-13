@@ -2,20 +2,23 @@
   jcr:primaryType: hst:component
   jcr:uuid: 75c04f50-4d64-44f9-9a0c-a18626b49665
   hst:lastmodified: 2017-09-13T12:32:59.452-07:00
-  hst:referencecomponent: hst:abstractpages/base
+  hst:referencecomponent: hst:abstractpages/twocolumns
   /main:
-    jcr:primaryType: hst:containercomponent
-    jcr:uuid: 96c3e54c-4157-4f8e-86f3-b725df43ad83
-    hst:label: Content Page Main
-    hst:lastmodified: 2017-09-13T12:34:00.172-07:00
-    hst:xtype: hst.vbox
-    /simplecontent:
-      jcr:primaryType: hst:containeritemcomponent
-      jcr:uuid: e989abd1-ed33-4289-b626-f32172e2207d
-      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
-      hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
-      hst:label: Simple Content
-      hst:parameternames: [document, org.hippoecm.hst.core.component.template]
-      hst:parametervalues: [about/about, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
-      hst:template: contentpage-main
-      hst:xtype: hst.item
+    jcr:primaryType: hst:component
+    jcr:uuid: 40a6f78c-4bcc-4c9d-b418-e0ce7d4b4fb3
+    /left:
+      jcr:primaryType: hst:containercomponent
+      jcr:uuid: 96c3e54c-4157-4f8e-86f3-b725df43ad83
+      hst:label: Content Page Main
+      hst:lastmodified: 2017-09-13T12:34:00.172-07:00
+      hst:xtype: hst.vbox
+      /simplecontent:
+        jcr:primaryType: hst:containeritemcomponent
+        jcr:uuid: e989abd1-ed33-4289-b626-f32172e2207d
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+        hst:iconpath: images/essentials/catalog-component-icons/simple-content.png
+        hst:label: Simple Content
+        hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+        hst:parametervalues: [about/about, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+        hst:template: contentpage-main
+        hst:xtype: hst.item

@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/newspage/main/left:
+  jcr:primaryType: hst:containercomponent
+  jcr:uuid: 3c31b709-ba77-4760-820c-424c6dbfb731
+  hst:label: News Page Main
+  hst:xtype: hst.vbox
+  /content:
+    jcr:primaryType: hst:containeritemcomponent
+    jcr:uuid: 22c9ed91-7c71-49a2-9238-879f027f87e9
+    hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+    hst:template: newspage-main
+    hst:xtype: hst.item
