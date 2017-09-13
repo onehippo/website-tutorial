@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/gogreen/hst:pages/productslist:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/twocolumns
+      /main:
+        jcr:primaryType: hst:component
+        /left:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+          hst:template: productslist
