@@ -1,8 +1,0 @@
-definitions:
-  config:
-    /hst:hst/hst:configurations/gogreen/hst:workspace/hst:channel:
-      jcr:primaryType: hst:channel
-      hst:name: GoGreen
-      hst:type: website
-      /hst:channelinfo:
-        jcr:primaryType: hst:channelinfo
