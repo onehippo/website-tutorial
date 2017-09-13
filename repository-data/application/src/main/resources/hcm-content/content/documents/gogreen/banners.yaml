@@ -74,3 +74,270 @@
       /gogreen:link:
         jcr:primaryType: hippo:mirror
         hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /10-simple-steps-to-green-your-office:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 20c68b0e-75f6-436b-9f07-186ba21a1976
+    hippo:name: 10 Simple Steps to Green Your Office
+    /10-simple-steps-to-green-your-office[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c97cb5af-a3a1-4eb9-9016-b0ed7e3c6456
+      gogreen:title: 10 Simple Steps to Green Your Office
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:18:39.726-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:18:39.726-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b32d75dd-c927-4de3-b2d4-febbc7093b20
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The following list for greening your office is by no
+          means exhaustive, but a way to get started in making your workplace more
+          environmentally friendly.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 847c7b06-89cb-4145-87ac-6da5fb344ac4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps-to-green-your-office[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 416bfe12-4333-48f1-a5ef-a1b5e6ce68a2
+      gogreen:title: 10 Simple Steps to Green Your Office
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:18:39.726-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:19:24.395-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b32d75dd-c927-4de3-b2d4-febbc7093b20
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The following list for greening your office is by no
+          means exhaustive, but a way to get started in making your workplace more
+          environmentally friendly.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 847c7b06-89cb-4145-87ac-6da5fb344ac4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+    /10-simple-steps-to-green-your-office[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2e6006a6-9b4e-4641-9d22-5c0b3fddd204
+      gogreen:title: 10 Simple Steps to Green Your Office
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:18:39.726-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:19:24.395-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-13T12:19:26.581-07:00
+      hippotranslation:id: b32d75dd-c927-4de3-b2d4-febbc7093b20
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The following list for greening your office is by no
+          means exhaustive, but a way to get started in making your workplace more
+          environmentally friendly.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 847c7b06-89cb-4145-87ac-6da5fb344ac4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+  /is-a-smart-thermostat-worth-the-investment:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 8152658a-dfa6-4bed-87b6-4f1f4227c4c3
+    hippo:name: Is a Smart Thermostat Worth the Investment?
+    /is-a-smart-thermostat-worth-the-investment[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 84313915-0d31-490e-a524-31cb3bc4781c
+      gogreen:title: Is a Smart Thermostat Worth the Investment?
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:19:40.426-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:19:40.426-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: dca96f01-e604-4961-a45e-2e8ce299efd3
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Will I really be able to save money and energy in the
+          long run by spending hundreds of dollars now for a so-called "smart" thermostat?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6655c99d-388a-43b9-a7ab-ae4e8bcb95a8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /is-a-smart-thermostat-worth-the-investment[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: ea7cdde3-ed1f-44b3-9223-6a3d3420a698
+      gogreen:title: Is a Smart Thermostat Worth the Investment?
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:19:40.426-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:20:19.383-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: dca96f01-e604-4961-a45e-2e8ce299efd3
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Will I really be able to save money and energy in the
+          long run by spending hundreds of dollars now for a so-called "smart" thermostat?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6655c99d-388a-43b9-a7ab-ae4e8bcb95a8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+    /is-a-smart-thermostat-worth-the-investment[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3f4bee30-cd01-4fc5-a67d-04275d65a95f
+      gogreen:title: Is a Smart Thermostat Worth the Investment?
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:19:40.426-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:20:19.383-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-13T12:20:20.938-07:00
+      hippotranslation:id: dca96f01-e604-4961-a45e-2e8ce299efd3
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Will I really be able to save money and energy in the
+          long run by spending hundreds of dollars now for a so-called "smart" thermostat?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6655c99d-388a-43b9-a7ab-ae4e8bcb95a8
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 30092f4e-2ef7-4c72-86a5-8ce895908937
+  /how-to-green-your-dorm-room:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b66319d1-45c8-459c-bd56-51aaa2f70f7b
+    hippo:name: How to Green Your Dorm Room
+    /how-to-green-your-dorm-room[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4f1f7888-53f6-44be-9384-13522d49878f
+      gogreen:title: How to Green Your Dorm Room
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:20:28.600-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:20:28.600-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6b86c811-db77-45d8-b8ca-248e7cef7837
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Every year, college students generate thousands of tons
+          of garbage, because of the choices they make in buying furniture and accessories.
+          Luckily, getting your dorm to be green has never been easier.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 23f6ab27-1b53-4216-8b1b-5a1b2563246f
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /how-to-green-your-dorm-room[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6d78621e-2af2-40d7-8cd5-0e05e4726ee3
+      gogreen:title: How to Green Your Dorm Room
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:20:28.600-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:20:51.894-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6b86c811-db77-45d8-b8ca-248e7cef7837
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Every year, college students generate thousands of tons
+          of garbage, because of the choices they make in buying furniture and accessories.
+          Luckily, getting your dorm to be green has never been easier.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 23f6ab27-1b53-4216-8b1b-5a1b2563246f
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+    /how-to-green-your-dorm-room[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8b648552-821d-4307-b2f6-f8218f38b609
+      gogreen:title: How to Green Your Dorm Room
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-13T12:20:28.600-07:00
+      hippostdpubwf:lastModificationDate: 2017-09-13T12:20:51.894-07:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-13T12:20:53.528-07:00
+      hippotranslation:id: 6b86c811-db77-45d8-b8ca-248e7cef7837
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Every year, college students generate thousands of tons
+          of garbage, because of the choices they make in buying furniture and accessories.
+          Luckily, getting your dorm to be green has never been easier.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 23f6ab27-1b53-4216-8b1b-5a1b2563246f
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
