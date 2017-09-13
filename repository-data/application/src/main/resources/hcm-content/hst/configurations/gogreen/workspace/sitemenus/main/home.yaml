@@ -1,5 +1,0 @@
-/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/home:
-  .meta:order-before: content
-  jcr:primaryType: hst:sitemenuitem
-  jcr:uuid: 6ff2aa63-53b7-438e-9df2-969995894b80
-  hst:referencesitemapitem: root

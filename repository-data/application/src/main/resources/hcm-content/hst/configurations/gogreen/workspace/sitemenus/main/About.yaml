@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/About:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: 9b3714d0-a98d-4730-b3bf-f31226fc7bde
+  hst:referencesitemapitem: about
+  hst:repobased: false
