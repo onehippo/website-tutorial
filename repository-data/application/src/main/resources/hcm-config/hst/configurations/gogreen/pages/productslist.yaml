@@ -1,6 +1,7 @@
 definitions:
   config:
     /hst:hst/hst:configurations/gogreen/hst:pages/productslist:
+      .meta:order-before: productpage
       jcr:primaryType: hst:component
       hst:referencecomponent: hst:abstractpages/twocolumns
       /main:
