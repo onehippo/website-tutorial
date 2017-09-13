@@ -1,6 +1,6 @@
 /hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/homepage/main/carousel:
   jcr:primaryType: hst:containeritemcomponent
-  jcr:uuid: 585c4948-e564-4617-931d-112b7651d9c5
+  jcr:uuid: ed43bf70-c0dd-4442-88e7-c4720686f621
   hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
   hst:iconpath: images/essentials/catalog-component-icons/carousel.png
   hst:label: Carousel
