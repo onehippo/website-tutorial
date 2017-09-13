@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/content:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: 3903ffb6-a743-43dd-9e8b-73558fed77e0
+  hst:referencesitemapitem: content

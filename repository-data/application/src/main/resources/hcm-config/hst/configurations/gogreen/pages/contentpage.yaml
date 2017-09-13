@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/gogreen/hst:pages/contentpage:
+      .meta:order-before: contentlist
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:containercomponentreference
+        hst:referencecomponent: contentpage/main

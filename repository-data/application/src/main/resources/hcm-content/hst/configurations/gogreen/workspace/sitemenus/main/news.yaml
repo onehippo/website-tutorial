@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/news:
+  .meta:order-before: content
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: 4f2a5f69-ce4b-4f28-a532-aec6d0e9fda9
+  hst:referencesitemapitem: news
