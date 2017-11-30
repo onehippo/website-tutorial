@@ -1,6 +1,0 @@
-/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/contentpage/main/content:
-  jcr:primaryType: hst:containeritemcomponent
-  jcr:uuid: 8ed93d34-1924-42fa-8e86-8631039157cc
-  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
-  hst:template: contentpage-main
-  hst:xtype: hst.item
