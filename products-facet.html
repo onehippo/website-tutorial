@@ -134,8 +134,8 @@
           <div class="row">
             <div class="col-md-9 col-sm-9">
               
-              <div class="isotope" id="masonry-elements">
-                <div class="feature blog-masonry isotope-item">
+              <div id="masonry-elements">
+                <div class="feature blog-masonry">
 
                   <div class="feature-image img-overlay">
                     <img src="binaries/content/gallery/products/terraclime.jpg" alt="" />
@@ -163,7 +163,7 @@
                   </div>
 
                 </div>
-                <div class="feature blog-masonry isotope-item">
+                <div class="feature blog-masonry">
 
                   <div class="feature-image img-overlay">
                     <img src="binaries/content/gallery/products/300px-cti_cooker_photo.jpg"
@@ -193,7 +193,7 @@
                   </div>
 
                 </div>
-                <div class="feature blog-masonry isotope-item">
+                <div class="feature blog-masonry">
 
                   <div class="feature-image img-overlay">
                     <img src="binaries/content/gallery/products/Aluminum-bottle.jpg"
@@ -228,7 +228,7 @@
                   </div>
 
                 </div>
-                <div class="feature blog-masonry isotope-item">
+                <div class="feature blog-masonry">
 
                   <div class="feature-image img-overlay">
                     <img
@@ -263,7 +263,7 @@
                   </div>
 
                 </div>
-                <div class="feature blog-masonry isotope-item">
+                <div class="feature blog-masonry">
 
                   <div class="feature-image img-overlay">
                     <img src="binaries/content/gallery/products/family-tent.jpg" alt="" />
@@ -416,45 +416,16 @@
 
   <!-- start page specific js -->
   <script src="js/jquery.raty.js" type="text/javascript"></script>
-  <script src="js/jquery.isotope.js" type="text/javascript"></script>
-    <script type="text/javascript">
-   jQuery(document).ready(function($) {
-  
-      $(window).resize(function() {
-          $('#masonry-elements,.portfolio-items').isotope('reLayout');
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $('#masonry-elements .product-rating').raty({
+          score: function() {
+              return $(this).attr('data-score');
+          },
+          readOnly: true,
+          half: true,
+          starType :  'i'
       });
-  
-      var $cont = $('.portfolio-items');
-  
-      $cont.isotope({
-          itemSelector: '.portfolio-items .thumb-label-item',
-          masonry: {columnWidth: $('.isotope-item:first').width(), gutterWidth: 6},
-          filter: '*',
-          transformsEnabled: false,
-          layoutMode: 'masonry'
-      });
-
-    });
-
-    $(window).load(function() {
-      var $masonryElement = $('#masonry-elements');
-      $masonryElement.isotope({
-        transformsEnabled: false,
-        masonry: {
-          columnWidth: 235,
-          gutterWidth: 15
-        }
-      });
-      $('#masonry-elements,.portfolio-items').isotope('reLayout');
-    });  
-
-    $('#masonry-elements .product-rating').raty({
-        score: function() {
-            return $(this).attr('data-score');
-        },
-        readOnly: true,
-        half: true,
-        starType :  'i'
     });
   </script>  
   <!-- end page specific js -->

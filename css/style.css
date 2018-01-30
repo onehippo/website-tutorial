@@ -1741,34 +1741,6 @@ Blog Single
   left: -5px;
 }
 
-#masonry-elements {
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-
-/* Effect 4: fall perspective */
-.feature.blog-masonry {
-  -webkit-perspective: 1300px;
-  -moz-perspective: 1300px;
-  perspective: 1300px;
-}
-
-.feature.blog-masonry {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  transform-style: none \9;
-  -webkit-transform: scale(0.4);
-  -moz-transform: scale(0.4);
-  transform: scale(0.4);
-  transform: none \9;
-  -webkit-animation: popUp .8s ease-in forwards;
-  -moz-animation: popUp .8s ease-in forwards;
-  animation: popUp .8s ease-in forwards;
-}
-
 @-webkit-keyframes popUp {
   70% {
     -webkit-transform: scale(1.1);
@@ -1810,6 +1782,8 @@ Blog Single
 
 .feature.blog-masonry {
   width: 235px;
+  display: inline-block;
+  vertical-align: top;
   margin: 0;
   margin-top: 20px;
   box-sizing: border-box;
@@ -1817,8 +1791,6 @@ Blog Single
   -moz-box-shadow: none;
   box-shadow: none;
   border: 1px solid rgba(0, 0, 0, 0.11);
-  float: left;
-  position: relative;
   background-color: #ffffff;
 }
 
@@ -1838,20 +1810,6 @@ Blog Single
   height: 122px;
 }
 
-/* masonry loading */
-#infscr-loading {
-  margin: 10px auto;
-  width: 215px;
-  text-align: center;
-  padding: 10px;
-  color: #279fbb;
-  background-color: #ffffff;
-  border-radius: 3px;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-}
 
 /****************************
 Boxed
