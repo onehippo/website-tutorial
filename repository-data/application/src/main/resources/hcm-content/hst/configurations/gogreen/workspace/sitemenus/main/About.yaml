@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/About:
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: about
+  hst:repobased: false
