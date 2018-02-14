@@ -1,5 +1,0 @@
-/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/Products:
-  .meta:order-before: About
-  jcr:primaryType: hst:sitemenuitem
-  jcr:uuid: 6ba7f69a-68b4-4cb6-814e-5f47969115c9
-  hst:referencesitemapitem: products
