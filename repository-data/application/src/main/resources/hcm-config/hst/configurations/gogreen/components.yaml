@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/gogreen/hst:components:
+      jcr:primaryType: hst:components
