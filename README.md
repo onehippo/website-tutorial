@@ -51,4 +51,4 @@ Automatic export of repository changes to the file system is turned on by
 default. To control this behavior, log into `http://localhost:8080/cms/console`
 and press the "Enable/Disable Auto Export" button at the top right. To set this
 as the default for your project edit the file
-`./bootstrap/configuration/src/main/resources/configuration/modules/autoexport-module.xml`
+`./repository-data/application/src/main/resources/hcm-config/configuration/modules/autoexport-module.yaml`
