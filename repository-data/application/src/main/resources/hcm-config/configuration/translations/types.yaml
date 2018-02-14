@@ -1,0 +1,108 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/gogreen:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Content
+        gogreen:image: Image
+        gogreen:link: Link
+        gogreen:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Inhoud
+        gogreen:image: Afbeelding
+        gogreen:link: Link
+        gogreen:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Contenu
+        gogreen:image: Image
+        gogreen:link: Lien
+        gogreen:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Inhalt
+        gogreen:image: Abbildung
+        gogreen:link: Link
+        gogreen:title: Titel
+        jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/gogreen:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:author: Author
+        gogreen:content: Content
+        gogreen:date: Date
+        gogreen:image: Image
+        gogreen:introduction: Introduction
+        gogreen:location: Location
+        gogreen:source: Source
+        gogreen:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:author: Auteur
+        gogreen:content: Inhoud
+        gogreen:date: Datum
+        gogreen:image: Afbeelding
+        gogreen:introduction: Introductie
+        gogreen:location: Locatie
+        gogreen:source: Bron
+        gogreen:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:author: Verfasser
+        gogreen:content: Inhalt
+        gogreen:date: Datum
+        gogreen:image: Abbildung
+        gogreen:introduction: Einführung
+        gogreen:location: Standort
+        gogreen:source: Quelle
+        gogreen:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:author: Auteur
+        gogreen:content: Contenu
+        gogreen:date: Date
+        gogreen:image: Image
+        gogreen:introduction: Introduction
+        gogreen:location: Lieu
+        gogreen:source: Source
+        gogreen:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/gogreen:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Content
+        gogreen:introduction: Introduction
+        gogreen:publicationdate: Publication date
+        gogreen:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Inhoud
+        gogreen:introduction: Introductie
+        gogreen:publicationdate: Publicatiedatum
+        gogreen:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Contenu
+        gogreen:introduction: Introduction
+        gogreen:publicationdate: Date de publication
+        gogreen:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:content: Inhalt
+        gogreen:introduction: Einführung
+        gogreen:publicationdate: Publikationsdatum
+        gogreen:title: Titel
+        jcr:name: Einfaches Dokument
