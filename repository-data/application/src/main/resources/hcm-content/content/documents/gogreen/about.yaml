@@ -1,0 +1,101 @@
+/content/documents/gogreen/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 1594f08f-23f9-4524-b8a3-67854050663e
+  hippo:name: About
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4d6796f3-f6f0-4a3b-ba53-352114a5a005
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4326dba0-0cef-4dbc-a2de-936bd602c95b
+    hippo:name: About
+    /about[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 67244851-413d-4c57-9fb6-1c4d5b43dbad
+      gogreen:introduction: This website is a demo website to showcase the features
+        of Hippo CMS.
+      gogreen:publicationdate: 2018-02-14T14:28:00-08:00
+      gogreen:title: About Hippo GoGreen
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-14T14:27:40.114-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-14T14:32:58.325-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c50dc066-e897-443c-ab2b-92dd96c4525a
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Hippo CMS is the Content Management System for creating personalized experiences across all channels. Hippo’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love Hippo because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love Hippo because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love Hippo because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.onehippo.com/">onehippo.com</a></p>
+    /about[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: bbff9f33-0bf2-4f0a-97cd-46bd97855cbc
+      gogreen:introduction: This website is a demo website to showcase the features
+        of Hippo CMS.
+      gogreen:publicationdate: 2018-02-14T14:28:00-08:00
+      gogreen:title: About Hippo GoGreen
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-14T14:27:40.114-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-14T14:28:20.985-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c50dc066-e897-443c-ab2b-92dd96c4525a
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Hippo CMS is the Content Management System for creating personalized experiences across all channels. Hippo’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love Hippo because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love Hippo because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love Hippo because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.onehippo.com/">onehippo.com</a></p>
+    /about[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b97a55d0-707c-4a20-8c3c-74cc587fe314
+      gogreen:introduction: This website is a demo website to showcase the features
+        of Hippo CMS.
+      gogreen:publicationdate: 2018-02-14T14:28:00-08:00
+      gogreen:title: About Hippo GoGreen
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-14T14:27:40.114-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-14T14:28:20.985-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-02-14T14:28:22.505-08:00
+      hippotranslation:id: c50dc066-e897-443c-ab2b-92dd96c4525a
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Hippo CMS is the Content Management System for creating personalized experiences across all channels. Hippo’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p>Editors love Hippo because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p>Marketers love Hippo because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p>IT folks love Hippo because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at&nbsp;<a href="http://www.onehippo.com/">onehippo.com</a></p>
