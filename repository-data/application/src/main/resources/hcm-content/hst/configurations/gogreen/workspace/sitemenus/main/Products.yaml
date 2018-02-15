@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/Products:
+  .meta:order-before: About
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: products
