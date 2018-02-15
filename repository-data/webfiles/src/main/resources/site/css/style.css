@@ -6905,6 +6905,10 @@ Testimonial
   width: 100%;
 }
 
+.feature.product-category {
+	min-height: 300px;
+}
+
 .feature.product-category .feature-content {
   border-top: none;
   border-bottom: 2px solid #89bf84;
