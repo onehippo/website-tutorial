@@ -1,0 +1,361 @@
+/content/documents/gogreen/products:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 33cb4789-f7e2-42f0-830d-a96974d2bdae
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: a4a1248c-9463-4261-847a-1759d3712e35
+  hippotranslation:locale: en
+  /solar-centurian---outdoor-security-light:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 962a56ec-de49-46e7-a738-0a085005a906
+    hippo:name: Solar Centurian - Outdoor Security Light
+    /solar-centurian---outdoor-security-light[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0a8ed58d-3f8d-4588-9f0f-9d54f957b88d
+      gogreen:introduction: Light up your night with a solar powered, motion detected
+        outdoor security light!
+      gogreen:price: 74.0
+      gogreen:title: Solar Centurian - Outdoor Security Light
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:37:01.186-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:37:01.186-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e01b2b43-e16d-4772-a320-19ac8dcd34fa
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This solar powered light is a bright (over 600 lumen) Halogen Security Light that installs easily where utility wiring is impractical or expensive. A patented passive infrared motion detector is able to detect activity up to 23m/75 feet away controls the light. When activated, the Solar Centurion throws a flood light into the target area for up to 3 minutes or as long as there is movement in the area.</p>
+
+          <p>It is perfect for security lighting or convenience lighting in your yard, at your garage, around your garage, or wherever security lighting is required at night!</p>
+
+          <p>The light is replaceable at any lighting or hardware store (Sylvania 1995/ERK miniature Halogen Lamp).</p>
+
+          <p>© Green Home, Inc.<br />
+          <a href="http://www.greenhome.com/products/yard_and_garden/outdoor_lighting/109508/">http://www.greenhome.com/products/yard_and_garden/outdoor_lighting/109508/</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 483f51d0-889c-4bf7-a81f-3f35c3022c10
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /solar-centurian---outdoor-security-light[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: dd5ef361-af62-4e3f-b74a-0efc3f2ed318
+      gogreen:introduction: Light up your night with a solar powered, motion detected
+        outdoor security light!
+      gogreen:price: 74.0
+      gogreen:title: Solar Centurian - Outdoor Security Light
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:37:01.186-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:37:47.283-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e01b2b43-e16d-4772-a320-19ac8dcd34fa
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This solar powered light is a bright (over 600 lumen) Halogen Security Light that installs easily where utility wiring is impractical or expensive. A patented passive infrared motion detector is able to detect activity up to 23m/75 feet away controls the light. When activated, the Solar Centurion throws a flood light into the target area for up to 3 minutes or as long as there is movement in the area.</p>
+
+          <p>It is perfect for security lighting or convenience lighting in your yard, at your garage, around your garage, or wherever security lighting is required at night!</p>
+
+          <p>The light is replaceable at any lighting or hardware store (Sylvania 1995/ERK miniature Halogen Lamp).</p>
+
+          <p>© Green Home, Inc.<br />
+          <a href="http://www.greenhome.com/products/yard_and_garden/outdoor_lighting/109508/">http://www.greenhome.com/products/yard_and_garden/outdoor_lighting/109508/</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 483f51d0-889c-4bf7-a81f-3f35c3022c10
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /solar-centurian---outdoor-security-light[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3e76e769-0d84-477c-89ba-ca100dcf3667
+      gogreen:introduction: Light up your night with a solar powered, motion detected
+        outdoor security light!
+      gogreen:price: 74.0
+      gogreen:title: Solar Centurian - Outdoor Security Light
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:37:01.186-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:37:47.283-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-02-15T13:37:48.831-08:00
+      hippotranslation:id: e01b2b43-e16d-4772-a320-19ac8dcd34fa
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>This solar powered light is a bright (over 600 lumen) Halogen Security Light that installs easily where utility wiring is impractical or expensive. A patented passive infrared motion detector is able to detect activity up to 23m/75 feet away controls the light. When activated, the Solar Centurion throws a flood light into the target area for up to 3 minutes or as long as there is movement in the area.</p>
+
+          <p>It is perfect for security lighting or convenience lighting in your yard, at your garage, around your garage, or wherever security lighting is required at night!</p>
+
+          <p>The light is replaceable at any lighting or hardware store (Sylvania 1995/ERK miniature Halogen Lamp).</p>
+
+          <p>© Green Home, Inc.<br />
+          <a href="http://www.greenhome.com/products/yard_and_garden/outdoor_lighting/109508/">http://www.greenhome.com/products/yard_and_garden/outdoor_lighting/109508/</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 483f51d0-889c-4bf7-a81f-3f35c3022c10
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /lifeproof-nuud-ipad-air-case:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: e8487d4c-5152-40e7-aa5c-08b8475396d9
+    hippo:name: Lifeproof nüüd IPad Air Case
+    /lifeproof-nuud-ipad-air-case[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 950df6f8-5cde-4813-9f7c-314a7a34fff6
+      gogreen:introduction: Get full protection for your phone in any wet, dirty or
+        damp setting.The nuud case armours your iPad Air without putting anything
+        between your fingertips and the touchscreen. An optical glass lens lets you
+        see and use the screen with crystal clarity.
+      gogreen:price: 129.0
+      gogreen:title: Lifeproof nüüd IPad Air Case
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:37:59.612-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:37:59.612-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2b3f7fcc-399e-45ee-8d86-1d7922c6ac3d
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Waterproof, fully submersible to 2 metres for up to 1 hour.</li>
+           <li>Shockproof, survives drops from 2 metres.</li>
+           <li>Full access to touchscreen and all buttons, ports and controls.</li>
+           <li>Maximum sound output and clarity.</li>
+           <li>Anti-reflective optical-glass camera lens.</li>
+           <li>Dimensions are 261.6 x 188 x 17.8mm.</li>
+           <li>The LifeProof warranty and MEC's Rocksolid Guarantee cover this case itself. Neither guarantee covers the contents you put inside the case.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5038-716/lifeproof-nuud-ipad-air-case/?f=10+50007+50023">http://www.mec.ca/product/5038-716/lifeproof-nuud-ipad-air-case/?f=10+50007+50023</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 69e69232-f5d0-474f-a876-71fc8125c134
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /lifeproof-nuud-ipad-air-case[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: a084176a-4cd5-4bfa-af34-dbf237409712
+      gogreen:introduction: Get full protection for your phone in any wet, dirty or
+        damp setting.The nuud case armours your iPad Air without putting anything
+        between your fingertips and the touchscreen. An optical glass lens lets you
+        see and use the screen with crystal clarity.
+      gogreen:price: 129.0
+      gogreen:title: Lifeproof nüüd IPad Air Case
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:37:59.612-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:38:25.881-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 2b3f7fcc-399e-45ee-8d86-1d7922c6ac3d
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Waterproof, fully submersible to 2 metres for up to 1 hour.</li>
+           <li>Shockproof, survives drops from 2 metres.</li>
+           <li>Full access to touchscreen and all buttons, ports and controls.</li>
+           <li>Maximum sound output and clarity.</li>
+           <li>Anti-reflective optical-glass camera lens.</li>
+           <li>Dimensions are 261.6 x 188 x 17.8mm.</li>
+           <li>The LifeProof warranty and MEC's Rocksolid Guarantee cover this case itself. Neither guarantee covers the contents you put inside the case.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5038-716/lifeproof-nuud-ipad-air-case/?f=10+50007+50023">http://www.mec.ca/product/5038-716/lifeproof-nuud-ipad-air-case/?f=10+50007+50023</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 69e69232-f5d0-474f-a876-71fc8125c134
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /lifeproof-nuud-ipad-air-case[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0e0584f6-1629-4f55-ae29-3295921d6703
+      gogreen:introduction: Get full protection for your phone in any wet, dirty or
+        damp setting.The nuud case armours your iPad Air without putting anything
+        between your fingertips and the touchscreen. An optical glass lens lets you
+        see and use the screen with crystal clarity.
+      gogreen:price: 129.0
+      gogreen:title: Lifeproof nüüd IPad Air Case
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:37:59.612-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:38:25.881-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-02-15T13:38:27.262-08:00
+      hippotranslation:id: 2b3f7fcc-399e-45ee-8d86-1d7922c6ac3d
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Waterproof, fully submersible to 2 metres for up to 1 hour.</li>
+           <li>Shockproof, survives drops from 2 metres.</li>
+           <li>Full access to touchscreen and all buttons, ports and controls.</li>
+           <li>Maximum sound output and clarity.</li>
+           <li>Anti-reflective optical-glass camera lens.</li>
+           <li>Dimensions are 261.6 x 188 x 17.8mm.</li>
+           <li>The LifeProof warranty and MEC's Rocksolid Guarantee cover this case itself. Neither guarantee covers the contents you put inside the case.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5038-716/lifeproof-nuud-ipad-air-case/?f=10+50007+50023">http://www.mec.ca/product/5038-716/lifeproof-nuud-ipad-air-case/?f=10+50007+50023</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 69e69232-f5d0-474f-a876-71fc8125c134
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /mec-lodge-4-4-tent:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: acdefe80-99ba-48ac-bea4-418c340c3e5b
+    hippo:name: MEC Lodge 4+4 Tent
+    /mec-lodge-4-4-tent[1]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 75b8c9a7-3d66-4e5e-91d0-b2a986b36e06
+      gogreen:introduction: Glamping, anyone? This large tent has 2 bedrooms that
+        each sleep 2 people. Both rooms are accessed from a central hall that’s tall
+        enough to stand up in. The hall doesn't have a floor, so you can use it to
+        deal with wet gear without getting your sleeping bags wet or gritty. Store
+        your bikes in it, dry your wetsuit, or use it as a sheltered dining area.
+        An optional ground sheet converts the hall to a bedroom that sleeps up to
+        4 additional campers.
+      gogreen:price: 589.0
+      gogreen:title: MEC Lodge 4+4 Tent
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:38:40.382-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:38:40.382-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f3c21d6c-8bda-4531-b6ed-567d65fbe2b9
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Central hall has doors with zippable mesh ventilation at either end.</li>
+           <li>Hall has numerous hanging points for drying lines or lanterns.</li>
+           <li>Each 2-person room has double pockets.</li>
+           <li>Hall has 4 storage pockets.</li>
+           <li>Optional floor for central hall available separately.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858">http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6f17839f-5260-49a0-8fd2-cbcdbce808eb
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /mec-lodge-4-4-tent[2]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e3d406bd-f7b5-425a-993c-4ccc2b04d693
+      gogreen:introduction: Glamping, anyone? This large tent has 2 bedrooms that
+        each sleep 2 people. Both rooms are accessed from a central hall that’s tall
+        enough to stand up in. The hall doesn't have a floor, so you can use it to
+        deal with wet gear without getting your sleeping bags wet or gritty. Store
+        your bikes in it, dry your wetsuit, or use it as a sheltered dining area.
+        An optional ground sheet converts the hall to a bedroom that sleeps up to
+        4 additional campers.
+      gogreen:price: 589.0
+      gogreen:title: MEC Lodge 4+4 Tent
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:38:40.382-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:39:04.875-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f3c21d6c-8bda-4531-b6ed-567d65fbe2b9
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Central hall has doors with zippable mesh ventilation at either end.</li>
+           <li>Hall has numerous hanging points for drying lines or lanterns.</li>
+           <li>Each 2-person room has double pockets.</li>
+           <li>Hall has 4 storage pockets.</li>
+           <li>Optional floor for central hall available separately.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858">http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6f17839f-5260-49a0-8fd2-cbcdbce808eb
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /mec-lodge-4-4-tent[3]:
+      jcr:primaryType: gogreen:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8971442e-4d8a-4d0d-9921-6f1ccc89598b
+      gogreen:introduction: Glamping, anyone? This large tent has 2 bedrooms that
+        each sleep 2 people. Both rooms are accessed from a central hall that’s tall
+        enough to stand up in. The hall doesn't have a floor, so you can use it to
+        deal with wet gear without getting your sleeping bags wet or gritty. Store
+        your bikes in it, dry your wetsuit, or use it as a sheltered dining area.
+        An optional ground sheet converts the hall to a bedroom that sleeps up to
+        4 additional campers.
+      gogreen:price: 589.0
+      gogreen:title: MEC Lodge 4+4 Tent
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-15T13:38:40.382-08:00
+      hippostdpubwf:lastModificationDate: 2018-02-15T13:39:04.875-08:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-02-15T13:39:06.104-08:00
+      hippotranslation:id: f3c21d6c-8bda-4531-b6ed-567d65fbe2b9
+      hippotranslation:locale: en
+      /gogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <ul>
+           <li>Central hall has doors with zippable mesh ventilation at either end.</li>
+           <li>Hall has numerous hanging points for drying lines or lanterns.</li>
+           <li>Each 2-person room has double pockets.</li>
+           <li>Hall has 4 storage pockets.</li>
+           <li>Optional floor for central hall available separately.</li>
+          </ul>
+
+          <p>© Mountain Equipment Co-operative<br />
+          <a href="http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858">http://www.mec.ca/product/5032-207/mec-lodge-44-tent/?h=10+50055+50130&amp;f=10+50130+50858</a></p>
+      /gogreen:images:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6f17839f-5260-49a0-8fd2-cbcdbce808eb
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
