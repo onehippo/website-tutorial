@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/newslist/main/left:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:containercomponent
+      hst:label: News List Main
+      hst:xtype: hst.vbox

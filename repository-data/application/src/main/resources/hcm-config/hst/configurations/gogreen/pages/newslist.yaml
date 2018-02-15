@@ -2,7 +2,9 @@ definitions:
   config:
     /hst:hst/hst:configurations/gogreen/hst:pages/newslist:
       jcr:primaryType: hst:component
-      hst:referencecomponent: hst:abstractpages/base
+      hst:referencecomponent: hst:abstractpages/twocolumns
       /main:
-        jcr:primaryType: hst:containercomponentreference
-        hst:referencecomponent: newslist/main
+        jcr:primaryType: hst:component
+        /left:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: newslist/main/left

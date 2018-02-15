@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/contentpage/main/left/content:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+  hst:template: contentpage-main
+  hst:xtype: hst.item
