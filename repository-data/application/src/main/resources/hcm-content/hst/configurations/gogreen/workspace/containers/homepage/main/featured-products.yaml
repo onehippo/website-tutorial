@@ -4,7 +4,7 @@
   hst:label: Featured Products
   hst:parameternames: [document8, document7, document9, document4, document3, document6,
     document10, document5, pageSize, showPagination, document2, document1]
-  hst:parametervalues: ['', '', '', '', '', '', '', '', '10', 'off', products/lifeproof-nuud-ipad-air-case,
-    products/solar-centurian---outdoor-security-light]
+  hst:parametervalues: ['', '', '', '', products/mec-lodge-4-4-tent, '', '', '', '10',
+    'off', products/lifeproof-nuud-ipad-air-case, products/solar-centurian---outdoor-security-light]
   hst:template: featured-products
   hst:xtype: hst.item
