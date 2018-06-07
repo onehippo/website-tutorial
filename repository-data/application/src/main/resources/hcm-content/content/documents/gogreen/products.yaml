@@ -3,7 +3,7 @@
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 33cb4789-f7e2-42f0-830d-a96974d2bdae
-  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:foldertype: [new-product-folder, new-product-document]
   hippotranslation:id: a4a1248c-9463-4261-847a-1759d3712e35
   hippotranslation:locale: en
   /solar-centurian---outdoor-security-light:

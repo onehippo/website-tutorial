@@ -22,6 +22,8 @@ definitions:
       new-content-document: new content document
       new-gogreen-imageset-image: New Image
       new-gogreen-imageset-folder: new folder
+      new-product-document: new product document
+      new-product-folder: new product folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
