@@ -9,6 +9,8 @@ definitions:
       new-news-folder: Neuer News-Ordner
       new-content-folder: Neuer Content-Ordner
       new-content-document: Neues Content-Document
+      new-gogreen-imageset-image: Neues Bild
+      new-gogreen-imageset-folder: Neuer Ordner
     /hippo:configuration/hippo:translations/hippo:templates/en:
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
@@ -18,6 +20,8 @@ definitions:
       new-news-folder: new news item folder
       new-content-folder: new content folder
       new-content-document: new content document
+      new-gogreen-imageset-image: New Image
+      new-gogreen-imageset-folder: new folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
@@ -27,6 +31,8 @@ definitions:
       new-news-folder: nouveau dossier messages d'info
       new-content-folder: nouveau dossier contenu
       new-content-document: nouveau document contenu
+      new-gogreen-imageset-image: Nouvelle image
+      new-gogreen-imageset-folder: un nouveau dossier
     /hippo:configuration/hippo:translations/hippo:templates/nl:
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
@@ -36,3 +42,11 @@ definitions:
       new-news-folder: nieuwe nieuwsmap
       new-content-folder: nieuwe contentmap
       new-content-document: nieuw content document
+      new-gogreen-imageset-image: Nieuwe Afbeelding
+      new-gogreen-imageset-folder: nieuwe map
+    /hippo:configuration/hippo:translations/hippo:templates/es:
+      new-gogreen-imageset-image: Nueva imagen
+      new-gogreen-imageset-folder: nueva carpeta
+    /hippo:configuration/hippo:translations/hippo:templates/zh:
+      new-gogreen-imageset-image: 新图片
+      new-gogreen-imageset-folder: 新文件夹
