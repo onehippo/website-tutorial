@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 6328efc0-b706-4474-adb4-fca9363cefb0
+          jcr:uuid: d6f11915-a917-4d47-8faa-1ad2618de9d6
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
@@ -80,12 +80,20 @@ definitions:
             hipposysedit:path: gogreen:location
             hipposysedit:primary: false
             hipposysedit:type: String
+          /relatednews:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:relatednews
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 8a897098-f320-44b9-a3f9-f050a8ee1680
+          jcr:uuid: 1a608592-42cc-41ac-847e-a8b9e4461d59
           gogreen:date: 0001-01-01T13:00:00+01:00
           gogreen:documenttype: news
           gogreen:introduction: ''
@@ -99,15 +107,21 @@ definitions:
           hippostdpubwf:lastModifiedBy: ''
           hippotranslation:id: document-type-locale-id
           hippotranslation:locale: document-type-locale
+          gogreen:location: ''
+          gogreen:source: ''
+          gogreen:author: ''
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
+            hippostd:content: ''
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:relatednews:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -186,5 +200,14 @@ definitions:
             field: image
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /relatednews:
+            jcr:primaryType: frontend:plugin
+            caption: Related News
+            field: relatednews
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

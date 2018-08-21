@@ -7,6 +7,8 @@ import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.example.beans.Imageset;
+import java.util.List;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
 
 @HippoEssentialsGenerated(internalName = "gogreen:newsdocument")
 @Node(jcrType = "gogreen:newsdocument")
@@ -90,5 +92,10 @@ public class NewsDocument extends HippoDocument {
     @HippoEssentialsGenerated(internalName = "gogreen:image")
     public Imageset getImage() {
         return getLinkedBean("gogreen:image", Imageset.class);
+    }
+
+    @HippoEssentialsGenerated(internalName = "gogreen:relatednews")
+    public List<HippoBean> getRelatednews() {
+        return getLinkedBeans("gogreen:relatednews", HippoBean.class);
     }
 }
