@@ -2,7 +2,13 @@ definitions:
   config:
     /hst:hst/hst:configurations/gogreen/hst:pages/newspage:
       jcr:primaryType: hst:component
-      hst:referencecomponent: hst:abstractpages/base
+      hst:referencecomponent: hst:abstractpages/twocolumns
       /main:
-        jcr:primaryType: hst:containercomponentreference
-        hst:referencecomponent: newspage/main
+        jcr:primaryType: hst:component
+        /left:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: newspage/main/left
+        /right:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+          hst:template: newspage-relatednews
