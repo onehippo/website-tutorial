@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/homepage/main/carousel:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsCarouselComponent
+  hst:iconpath: images/essentials/catalog-component-icons/carousel.png
+  hst:label: Carousel
+  hst:parameternames: [document4, document3, document6, document5, document2, document1,
+    cycle, pause, carouselWidth, carouselHeight, carouselBackgroundColor, showNavigation,
+    interval]
+  hst:parametervalues: ['', banners/how-to-green-your-dorm-room, '', '', banners/is-a-smart-thermostat-worth-the-investment,
+    banners/10-simple-steps-to-green-your-office, 'on', 'on', '700', '250', '#FFFFFF',
+    'off', '3000']
+  hst:template: essentials-carousel
+  hst:xtype: hst.item
