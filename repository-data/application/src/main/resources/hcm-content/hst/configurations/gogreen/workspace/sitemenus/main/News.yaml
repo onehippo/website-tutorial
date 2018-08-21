@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/News:
+  .meta:order-before: About
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: news
+  hst:repobased: false
