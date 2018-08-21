@@ -1,5 +1,0 @@
-group: 
-  name: gogreen
-  after: hippo-cms
-project: gogreen
-module: gogreen-repository-data-webfiles
