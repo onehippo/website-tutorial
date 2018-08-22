@@ -1,0 +1,9 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/homepage/main/featured-products:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListPickerComponent
+  hst:label: Featured Products
+  hst:parameternames: [document3, document2, document1]
+  hst:parametervalues: [products/mec-lodge-4-4-tent, products/lifeproof-nuud-ipad-air-case,
+    products/solar-centurian---outdoor-security-light]
+  hst:template: featured-products
+  hst:xtype: hst.item
