@@ -1,6 +1,7 @@
 definitions:
   config:
     /hippo:configuration/hippo:translations/hippo:templates/de:
+      jcr:primaryType: hipposys:resourcebundle
       new-resource-bundle: Neues Resource-Bundle
       new-untranslated-folder: Neuer nicht übersetzter Ordner
       new-banner-folder: Neuer Banner-Ordner
@@ -12,6 +13,7 @@ definitions:
       new-gogreen-imageset-image: Neues Bild
       new-gogreen-imageset-folder: Neuer Ordner
     /hippo:configuration/hippo:translations/hippo:templates/en:
+      jcr:primaryType: hipposys:resourcebundle
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
       new-banner-folder: new banner folder
@@ -23,6 +25,7 @@ definitions:
       new-gogreen-imageset-image: New Image
       new-gogreen-imageset-folder: new folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
+      jcr:primaryType: hipposys:resourcebundle
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
       new-banner-folder: nouveau dossier bannière
@@ -34,6 +37,7 @@ definitions:
       new-gogreen-imageset-image: Nouvelle image
       new-gogreen-imageset-folder: un nouveau dossier
     /hippo:configuration/hippo:translations/hippo:templates/nl:
+      jcr:primaryType: hipposys:resourcebundle
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
       new-banner-folder: nieuwe banner map
@@ -45,8 +49,10 @@ definitions:
       new-gogreen-imageset-image: Nieuwe Afbeelding
       new-gogreen-imageset-folder: nieuwe map
     /hippo:configuration/hippo:translations/hippo:templates/es:
+      jcr:primaryType: hipposys:resourcebundle
       new-gogreen-imageset-image: Nueva imagen
       new-gogreen-imageset-folder: nueva carpeta
     /hippo:configuration/hippo:translations/hippo:templates/zh:
+      jcr:primaryType: hipposys:resourcebundle
       new-gogreen-imageset-image: 新图片
       new-gogreen-imageset-folder: 新文件夹
