@@ -13,7 +13,7 @@
           <div class="feature product-category">
             <@hst.manageContent hippobean=item 
                                 parameterName="document" + item?counter 
-                                templateQuery="new-product-document" 
+                                documentTemplateQuery="new-product-document" 
                                 rootPath="products" />
             <div class="feature-image">
               <a href="${link}">
@@ -36,7 +36,7 @@
           <div class="col-md-4 col-sm-4">
             <div class="feature product-category">
               <@hst.manageContent parameterName="document" + i
-                                  templateQuery="new-product-document" 
+                                  documentTemplateQuery="new-product-document" 
                                   rootPath="products" />
             </div>
           </div>
