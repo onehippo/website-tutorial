@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
-  <projectNamespace>gogreen</projectNamespace>
-  <confirmParams>false</confirmParams>
-  <selectedProjectPackage>org.example</selectedProjectPackage>
-  <selectedBeansPackage>org.example.beans</selectedBeansPackage>
-  <selectedComponentsPackage>org.example.components</selectedComponentsPackage>
-  <selectedRestPackage>org.example.rest</selectedRestPackage>
-  <hstRoot>/hst:gogreen</hstRoot>
-  <webfileBundleName>gogreen</webfileBundleName>
-  <setupDone>false</setupDone>
-  <useSamples>true</useSamples>
-  <extraTemplates>true</extraTemplates>
+    <applicationSubModule>application</applicationSubModule>
+    <cmsDependenciesModule>cms-dependencies</cmsDependenciesModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <developmentSubModule>development</developmentSubModule>
+    <enterprise>false</enterprise>
+    <extraTemplates>true</extraTemplates>
+    <hstRoot>/hst:gogreen</hstRoot>
+    <projectNamespace>gogreen</projectNamespace>
+    <repositoryDataModule>repository-data</repositoryDataModule>
+    <selectedBeansPackage>org.example.beans</selectedBeansPackage>
+    <selectedComponentsPackage>org.example.components</selectedComponentsPackage>
+    <selectedProjectPackage>org.example</selectedProjectPackage>
+    <selectedRestPackage>org.example.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteModule>site</siteModule>
+    <useSamples>true</useSamples>
+    <webfileBundleName>gogreen</webfileBundleName>
+    <webfilesSubModule>webfiles</webfilesSubModule>
 </project>
