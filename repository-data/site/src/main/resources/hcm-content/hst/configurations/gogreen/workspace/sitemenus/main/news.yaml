@@ -1,4 +1,4 @@
 /hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/news:
-  .meta:order-before: content
+  .meta:order-before: about
   jcr:primaryType: hst:sitemenuitem
   hst:referencesitemapitem: news
