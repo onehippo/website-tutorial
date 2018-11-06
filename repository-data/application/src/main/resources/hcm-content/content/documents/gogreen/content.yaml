@@ -90,3 +90,152 @@
 
                       </body>
                       </html>
+  /quick-facts:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: baf6fd18-491d-4969-a9c9-66ed9b6c9deb
+    hippo:name: Quick Facts
+    hippo:versionHistory: 51bc708c-74d9-4d24-89a4-adf1ed10cc7b
+    /quick-facts[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0ceffe97-af5b-4e5c-8f8f-11aea1fe7eea
+      gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
+        offices worldwide.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick Facts
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-06T20:07:25.431+13:00
+      hippostdpubwf:lastModificationDate: 2018-11-06T20:07:25.431+13:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d475ddf1-ae87-4b83-81f7-55c6764e696d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+    /quick-facts[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e82d95f1-026e-4656-b1d6-110bfac8a6fc
+      gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
+        offices worldwide.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick Facts
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-06T20:07:25.431+13:00
+      hippostdpubwf:lastModificationDate: 2018-11-06T20:08:14.961+13:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d475ddf1-ae87-4b83-81f7-55c6764e696d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+    /quick-facts[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 327a1a15-71bd-4ece-a2cc-bbf5312887a8
+      gogreen:introduction: BloomReach is headquartered in Mountain View, CA with
+        offices worldwide.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Quick Facts
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-06T20:07:25.431+13:00
+      hippostdpubwf:lastModificationDate: 2018-11-06T20:08:14.961+13:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T20:09:04.516+13:00
+      hippotranslation:id: d475ddf1-ae87-4b83-81f7-55c6764e696d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach's industry-leading tools unlock the powerful
+          creativity of humans to improve omnichannel customer experiences at scale.
+          Together, our users and our intelligent tools generate millions of dollars
+          of proven incremental sales.</p>
+  /terms--conditions:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 648c1357-253e-465f-9aa0-6adda3cb21a8
+    hippo:name: Terms & Conditions
+    hippo:versionHistory: 6a656d2a-9e02-4a20-8264-364520bcd7da
+    /terms--conditions[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b2a85a24-08d9-4211-be26-bcfe536117fa
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-06T20:07:39.559+13:00
+      hippostdpubwf:lastModificationDate: 2018-11-06T20:07:39.559+13:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b6f4f61d-5a3f-4e89-aef7-e635af2765a2
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach&nbsp;tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 68f4bf26-4489-4686-ba45-06f49a61be8c
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-06T20:07:39.559+13:00
+      hippostdpubwf:lastModificationDate: 2018-11-06T20:08:58.562+13:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b6f4f61d-5a3f-4e89-aef7-e635af2765a2
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach&nbsp;tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>
+    /terms--conditions[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9dc976dd-556d-469c-8c79-65d92f55c9b7
+      gogreen:introduction: All content is only used for demo uses.
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: Terms & Conditions
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-11-06T20:07:39.559+13:00
+      hippostdpubwf:lastModificationDate: 2018-11-06T20:08:58.562+13:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-11-06T20:09:02.343+13:00
+      hippotranslation:id: b6f4f61d-5a3f-4e89-aef7-e635af2765a2
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>BloomReach&nbsp;tried to only use Creative commons license
+          &amp; give the credits to the original owners. If you find some content
+          wihich shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+          and we will remove it.</p>

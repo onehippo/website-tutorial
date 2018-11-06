@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/About:
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: about
+  hst:repobased: false
+  /Quick Facts:
+    jcr:primaryType: hst:sitemenuitem
+    hst:referencesitemapitem: content/quick-facts.html
+  /Terms & Conditions:
+    jcr:primaryType: hst:sitemenuitem
+    hst:referencesitemapitem: content/terms--conditions.html

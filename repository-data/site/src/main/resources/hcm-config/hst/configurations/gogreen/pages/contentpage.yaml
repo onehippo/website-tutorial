@@ -8,3 +8,9 @@ definitions:
         /left:
           jcr:primaryType: hst:containercomponentreference
           hst:referencecomponent: contentpage/main/left
+        /right:
+          jcr:primaryType: hst:component
+          hst:template: twocolumns-right-menu
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+          hst:parameternames: [menu]
+          hst:parametervalues: [main]
