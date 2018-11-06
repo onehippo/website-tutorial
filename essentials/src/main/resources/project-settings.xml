@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>gogreen</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedProjectPackage>org.example</selectedProjectPackage>
+  <selectedBeansPackage>org.example.beans</selectedBeansPackage>
+  <selectedComponentsPackage>org.example.components</selectedComponentsPackage>
+  <selectedRestPackage>org.example.rest</selectedRestPackage>
+  <hstRoot>/hst:gogreen</hstRoot>
+  <webfileBundleName>gogreen</webfileBundleName>
+  <setupDone>false</setupDone>
+  <useSamples>true</useSamples>
+  <extraTemplates>true</extraTemplates>
+</project>

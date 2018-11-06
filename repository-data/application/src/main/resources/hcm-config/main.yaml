@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    gogreen:
+      uri: http://www.onehippo.org/gogreen/nt/1.0
+      cnd: namespaces/gogreen.cnd

@@ -1,0 +1,6 @@
+group: 
+  name: gogreen
+  after: hippo-cms
+project: gogreen
+module:
+  name: gogreen-repository-data-site
