@@ -1,5 +1,0 @@
-definitions:
-  config:
-    /content/gallery:
-      hippostd:foldertype: [new-gogreen-imageset-folder]
-      hippostd:gallerytype: ['gogreen:imageset']

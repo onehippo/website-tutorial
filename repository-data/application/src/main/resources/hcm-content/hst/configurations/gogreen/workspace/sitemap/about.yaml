@@ -1,6 +1,0 @@
-/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemap/about:
-  jcr:primaryType: hst:sitemapitem
-  hst:componentconfigurationid: hst:pages/about-contentpage
-  hst:lastmodified: 2018-08-21T11:44:53.314-07:00
-  hst:pagetitle: About
-  hst:relativecontentpath: about/about
