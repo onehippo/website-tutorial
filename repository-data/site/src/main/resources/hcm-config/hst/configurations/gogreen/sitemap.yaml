@@ -50,3 +50,7 @@ definitions:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/productslist
         hst:relativecontentpath: products
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/productpage
+          hst:relativecontentpath: ${parent}/${1}
