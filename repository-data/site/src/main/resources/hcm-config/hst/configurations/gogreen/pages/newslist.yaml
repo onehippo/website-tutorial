@@ -8,3 +8,7 @@ definitions:
         /left:
           jcr:primaryType: hst:containercomponentreference
           hst:referencecomponent: newslist/main/left
+        /right:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsFacetsComponent
+          hst:template: faceted-navigation
